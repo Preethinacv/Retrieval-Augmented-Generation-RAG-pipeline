@@ -1,4 +1,4 @@
-This project demonstrates an End-to-End Retrieval-Augmented Generation (RAG) pipeline using:
+1.This project demonstrates an End-to-End Retrieval-Augmented Generation (RAG) pipeline using:
 
 🧠 Groq's LLaMA3 for blazing-fast inference
 
@@ -7,3 +7,17 @@ This project demonstrates an End-to-End Retrieval-Augmented Generation (RAG) pip
 📦 ObjectBox as a local vector database
 
 ⚡ Streamlit for a lightweight, interactive frontend
+
+2. Set up virtual environment
+        python -m venv env
+        source env/bin/activate
+
+3. Install dependencies
+      pip install -r requirements.txt
+
+4. Add your API key
+     Create a .env file:
+        GROQ_API_KEY=your_groq_api_key
+
+5. Run the app
+      streamlit run app.py
